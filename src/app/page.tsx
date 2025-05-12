@@ -4,11 +4,11 @@ import { useEffect } from "react";
 import Image from "next/image";
 import "./globals.scss"
 
-import { connectDB } from "@/utils/database";
+//import { connectDB } from "@/utils/database";
 
 const Home = () => {
 
-    const db = connectDB()
+    //const db = connectDB()
 
     useEffect(() => {
         const timer = setTimeout(() => {
